@@ -37,3 +37,5 @@
 
 
 这样就会每隔五分钟往zabbix server发一次当前路由的数据
+
+##如果没有root权限请用traceroute2.py
