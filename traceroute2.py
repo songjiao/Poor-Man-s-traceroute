@@ -127,8 +127,9 @@ if __name__ == "__main__":
     logging.getLogger().info(route)
     value = []
 
-    for i in range(1, len(route.items())):
-        value.append(route.get(str(i)))
+    for i in range(1, 32):
+        if route.get(str(i)):
+            value.append(route.get(str(i)))
 
     logger.info("value:%s" % value)
     val = ">".join(value)
