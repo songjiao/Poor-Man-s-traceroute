@@ -113,7 +113,7 @@ class TraceRoute:
 
 
 if __name__ == "__main__":
-    optp = optparse.OptionParser(usage="%prog [options] hostname")
+    optp = optparse.OptionParser(usage="%prog -D dest_host -z zabbix_server -H zabbix_host -k zabbix_key")
     # Output verbosity options.
     optp.add_option('-q', '--quiet', help='set logging to ERROR',
                     action='store_const', dest='loglevel',
